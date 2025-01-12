@@ -16,3 +16,4 @@ options:
   jellyfin_url: "https://jellyfin.example.org
 schema:
   jellyfin_url: str
+image: "ghcr.io/SeineEloquenz/{arch}-vidaa-edge"

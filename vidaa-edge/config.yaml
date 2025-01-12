@@ -1,5 +1,5 @@
 name: "Vidaa Edge"
-description: "Custom Apps for Vidaa TVs"
+description: "Install custom Apps on Vidaa TVs"
 version: "1.0.0"
 slug: "vidaa-edge"
 init: false

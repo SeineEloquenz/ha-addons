@@ -1,0 +1,1 @@
+# SeineEloquenz' Home Assistant Addons

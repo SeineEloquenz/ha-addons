@@ -1,6 +1,6 @@
 name: Vidaa Edge
 description: Install custom Apps on Vidaa TVs
-version: "1.1.1"
+version: "1.1.2"
 slug: vidaa-edge
 url: "https://github.com/SeineEloquenz/ha-addons/tree/main/vidaa-edge"
 init: false

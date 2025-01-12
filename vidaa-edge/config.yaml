@@ -13,7 +13,7 @@ startup: services
 ports:
   443/tcp: 443
 options:
-  jellyfin_url: "https://jellyfin.example.org
+  jellyfin_url: "https://jellyfin.example.org"
 schema:
   jellyfin_url: str
 image: "ghcr.io/SeineEloquenz/{arch}-vidaa-edge"

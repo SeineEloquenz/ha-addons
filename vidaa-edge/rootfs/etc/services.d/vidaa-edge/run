@@ -10,6 +10,6 @@ declare JELLYFIN_URL
 JELLYFIN_URL=$(bashio::config 'jellyfin_url')
 
 bashio::log.info "Patching jellyfin config with url ${JELLYFIN_URL}"
-sed -i "s|http://jellyfin.weinzi.com|$JELLYFIN_URL|g" ./src/environments/*
+sed -i "s|http://jellyfin.weinzi.com|$JELLYFIN_URL|g" /opt/app/src/environments/*
 
 exec /usr/bin/vidaa-edge

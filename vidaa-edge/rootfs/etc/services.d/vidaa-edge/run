@@ -1,0 +1,15 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Start the vidaa-edge service
+# s6-overlay docs: https://github.com/just-containers/s6-overlay
+# ==============================================================================
+
+# Declare variables
+declare JELLYFIN_URL
+
+JELLYFIN_URL=$(bashio::config 'jellyfin_url')
+
+bashio::log.info "Patching jellyfin config with url ${JELLYFIN_URL}"
+sed -i "s|http://jellyfin.weinzi.com|$JELLYFIN_URL|g" ./src/environments/*
+
+exec /usr/bin/vidaa-edge

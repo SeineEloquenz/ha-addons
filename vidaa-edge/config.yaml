@@ -1,7 +1,7 @@
-name: "Vidaa Edge"
-description: "Install custom Apps on Vidaa TVs"
+name: Vidaa Edge
+description: Install custom Apps on Vidaa TVs
 version: "1.0.0"
-slug: "vidaa-edge"
+slug: vidaa-edge
 url: "https://github.com/SeineEloquenz/ha-addons/tree/main/vidaa-edge"
 init: false
 arch:
@@ -17,4 +17,4 @@ options:
   jellyfin_url: "https://jellyfin.example.org"
 schema:
   jellyfin_url: str
-image: "ghcr.io/SeineEloquenz/{arch}-vidaa-edge"
+image: ghcr.io/seineeloquenz/{arch}-vidaa-edge

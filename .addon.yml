@@ -1,5 +1,0 @@
-addons:
-  vidaa-edge:
-    repository: SeineEloquenz/vidaa-edge-ha
-    target: vidaa-edge
-    image: ghcr.io/SeineEloquenz/vidaa-edge-ha/{arch}
